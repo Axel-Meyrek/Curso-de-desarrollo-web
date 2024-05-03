@@ -3,45 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/wave.css">
+    <link rel="stylesheet" href="./styles/mediaQueries.css">
     <title>Curso de desarrollo web</title>
 </head>
 <body>
     <!-- HEADER -->
     <header class="header">
         <div class="containerTitle">
-            <h1 class="title">Desarrollo de sitios web</h1>
-            <h2 class="subTitle">Aprende HTML & CSS sin tantas vueltas</h2>
+            <h1 class="title">DESARROLLO DE SITIOS WEB</h1>
+            <h2 class="subTitleMain">Aprende HTML & CSS sin tantas vueltas</h2>
         </div>
-        <svg id="svg" viewBox="0 0 1440 300" xmlns="http://www.w3.org/2000/svg" class="Wave_wave___meZb"><path d="M 0,400 C 0,400 0,200 0,200 C 74.42820512820512,185.56410256410254 148.85641025641024,171.1282051282051 234,172 C 319.14358974358976,172.8717948717949 415.0025641025642,189.05128205128207 496,198 C 576.9974358974358,206.94871794871793 643.1333333333333,208.66666666666666 712,206 C 780.8666666666667,203.33333333333334 852.4641025641026,196.2820512820513 929,209 C 1005.5358974358974,221.7179487179487 1087.0102564102565,254.20512820512818 1173,256 C 1258.9897435897435,257.7948717948718 1349.4948717948719,228.8974358974359 1440,200 C 1440,200 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill="#f6e05e" fill-opacity="1" class="Wave_waves__cnuh1" transform="rotate(180 720 200)"></path></svg>
+        <svg class="wave" id="svg" viewBox="0 0 1440 300" xmlns="http://www.w3.org/2000/svg" class="Wave_wave___meZb"><path d="M 0,400 C 0,400 0,200 0,200 C 74.42820512820512,185.56410256410254 148.85641025641024,171.1282051282051 234,172 C 319.14358974358976,172.8717948717949 415.0025641025642,189.05128205128207 496,198 C 576.9974358974358,206.94871794871793 643.1333333333333,208.66666666666666 712,206 C 780.8666666666667,203.33333333333334 852.4641025641026,196.2820512820513 929,209 C 1005.5358974358974,221.7179487179487 1087.0102564102565,254.20512820512818 1173,256 C 1258.9897435897435,257.7948717948718 1349.4948717948719,228.8974358974359 1440,200 C 1440,200 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill="#d1befc" fill-opacity="1" class="Wave_waves__cnuh1" transform="rotate(180 720 200)"></path></svg>
     </header>
 
     <!-- NAV -->
     <nav class="nav">
-        <a href="#">Inicio</a>
-        <a href="#">Habilidades</a>
-        <a href="#">Proyectos</a>
-        <a href="#">Instructor</a>
-        <a href="#">Registro</a>
+        <a class="navItem" href="#inicio">Inicio</a>
+        <a class="navItem" href="#habilidades">Habilidades</a>
+        <a class="navItem" href="#instructor">Instructor</a>
+        <a class="navItem" href="#proyectos">Proyectos</a>
+        <a class="navItem" href="#preRegistro">Registro</a>
     </nav>
 
 
     <!-- DESCRIPTION -->
-    <section class="description">
+    <section id="inicio" class="description">
         <h2 class="subTitle">¿Que onda con el desarrollo web?</h2>
         <p>¿Quieres aprender a construir tu propio espacio en la web? Este curso te enseñará a crear sitios web estáticos utilizando HTML y CSS, las bases fundamentales del desarrollo web. Desde la estructura básica de una página hasta el diseño y la estilización avanzada, aprenderás a dar vida a tus ideas en línea de manera visualmente atractiva. Sin necesidad de conocimientos previos en programación, este curso te proporcionará las habilidades esenciales para desarrollar y personalizar tus propios sitios web estáticos.</p>
     </section>
 
     <!-- HABILITIES -->
-    <section class="habilities">
+    <section id="habilidades" class="habilities">
         <header class="habilities_header">
-            <h2 class="subTitle">Habilidades que desarrollaras</h2>
+            <h2 class="subTitle">Habilidades que aprenderas</h2>
         </header>
         
         <div class="containerCards_habilities">
 
             <article class="cardHabilitie">
                 <div class="containerImg">
-                    <img src="./public/icon-html.png" alt="">
+                    <img loading="lazy"  src="./public/icon-html.png" alt="">
                 </div>
                 <div class="descriptionCard">
                     <h3 class="habilite">HTML</h3>
@@ -51,7 +54,7 @@
 
             <article class="cardHabilitie">
                 <div class="containerImg">
-                    <img src="./public/icon-css.png" alt="">
+                    <img loading="lazy"  src="./public/icon-css.png" alt="">
                 </div>
                 <div class="descriptionCard">
                     <h3 class="habilite">CSS</h3>
@@ -61,7 +64,7 @@
 
             <article class="cardHabilitie">
                 <div class="containerImg">
-                    <img src="./public/icon-seo.png" alt="">
+                    <img loading="lazy"  src="./public/icon-seo.png" alt="">
                 </div>
                 <div class="descriptionCard">
                     <h3 class="habilite">SEO</h3>
@@ -71,7 +74,7 @@
 
             <article class="cardHabilitie">
                 <div class="containerImg">
-                    <img src="./public/icon-responsive.png" alt="">
+                    <img loading="lazy"  src="./public/icon-responsive.png" alt="">
                 </div>
                 <div class="descriptionCard">
                     <h3 class="habilite">Responsive Web Design</h3>
@@ -81,7 +84,7 @@
 
             <article class="cardHabilitie">
                 <div class="containerImg">
-                    <img src="./public/icon-deployment.png" alt="">
+                    <img loading="lazy"  src="./public/icon-deployment.png" alt="">
                 </div>
                 <div class="descriptionCard">
                     <h3 class="habilite">Deployment</h3>
@@ -91,7 +94,7 @@
 
             <article class="cardHabilitie">
                 <div class="containerImg">
-                    <img src="./public/icon-goodPractiques.png" alt="">
+                    <img loading="lazy" src="./public/icon-goodPractiques.png" alt="">
                 </div>
                 <div class="descriptionCard">
                     <h3 class="habilite">Buenas practicas</h3>
@@ -101,51 +104,57 @@
         </div>
     </section>
 
-    <div class="sectionIntructor">
-        <header class="intructor_header">
-            <h2 class="subTitle">INSTRUCTOR</h2>
-        </header>
 
-        <div class="instructor">
-            <div class="imgInstructor">
-                <img src="" alt="">
-            </div>
-            <div class="container_descriptionInstructor">
-                <p class="descriptionInstructor">¡Hola!, mi nombre es Axel y soy un diseñador y desarrollador web, a lo largo de mi carrera, he trabajado en una variedad de proyectos exitosos que han requerido soluciones creativas y únicas para resolver problemas complejos.</p>
-                <a class="redesIntructor" href=""></a>
-                <a class="redesIntructor" href=""></a>
-                <a class="redesIntructor" href=""></a>
-                <a class="redesIntructor" href=""></a>
-                <a href="https://axelmeyrekfrontend.netlify.app/">Portafolio</a>
+    <!-- INSTRUCTOR -->
+    <div id="instructor" class="sectionIntructor">
+        <div class="conteinerInfoInstructor">
+            <!-- <header class="intructor_header">
+                <h2 class="subTitle instructorTitle">INSTRUCTOR</h2>
+            </header> -->
+            
+            <div class="instructor">
+                <div class="imgInstructor">
+                    <img loading="lazy" class="imgInstructor_item" src="./public/profile-axelMeyrek.jpg" alt="">
+                </div>
+                <div class="container_descriptionInstructor">
+                    <p class="descriptionInstructor">¡Hola!, mi nombre es Axel y soy un diseñador y desarrollador web, a lo largo de mi carrera, he trabajado en una variedad de proyectos exitosos que han requerido soluciones creativas y únicas para resolver problemas complejos.</p>
+                    <nav class="redesIntructor">
+                        <a href="https://github.com/Axel-Meyrek"><i class="fa-brands fa-github redesIntructor_item"></i></a>
+                        <a href="https://www.instagram.com/axel_meyrek/?hl=es"><i class="fa-brands fa-instagram redesIntructor_item"></i></a>
+                        <a href="https://www.linkedin.com/in/axel-velasco-c-b43b25235/"><i class="fa-brands fa-linkedin-in redesIntructor_item"></i></a>
+                        <a class="redesIntructor_item" href=""></a>
+                    </nav>
+                    <a class="button" href="https://axelmeyrekfrontend.netlify.app/">Portafolio</a>
+                </div>
             </div>
         </div>
-        <svg id="svg" viewBox="0 0 1440 300" xmlns="http://www.w3.org/2000/svg" class="Wave_wave___meZb"><path d="M 0,400 C 0,400 0,200 0,200 C 74.42820512820512,185.56410256410254 148.85641025641024,171.1282051282051 234,172 C 319.14358974358976,172.8717948717949 415.0025641025642,189.05128205128207 496,198 C 576.9974358974358,206.94871794871793 643.1333333333333,208.66666666666666 712,206 C 780.8666666666667,203.33333333333334 852.4641025641026,196.2820512820513 929,209 C 1005.5358974358974,221.7179487179487 1087.0102564102565,254.20512820512818 1173,256 C 1258.9897435897435,257.7948717948718 1349.4948717948719,228.8974358974359 1440,200 C 1440,200 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill="#f6e05e" fill-opacity="1" class="Wave_waves__cnuh1" transform="rotate(180 720 200)"></path></svg>
+        <svg id="svg" viewBox="0 0 1440 300" xmlns="http://www.w3.org/2000/svg" class="Wave_wave___meZb"><path d="M 0,400 C 0,400 0,200 0,200 C 74.42820512820512,185.56410256410254 148.85641025641024,171.1282051282051 234,172 C 319.14358974358976,172.8717948717949 415.0025641025642,189.05128205128207 496,198 C 576.9974358974358,206.94871794871793 643.1333333333333,208.66666666666666 712,206 C 780.8666666666667,203.33333333333334 852.4641025641026,196.2820512820513 929,209 C 1005.5358974358974,221.7179487179487 1087.0102564102565,254.20512820512818 1173,256 C 1258.9897435897435,257.7948717948718 1349.4948717948719,228.8974358974359 1440,200 C 1440,200 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill="#d1befc" fill-opacity="1" class="Wave_waves__cnuh1" transform="rotate(180 720 200)"></path></svg>
     </div>
 
 
     <!-- PROYECTOS -->
-    <section class="proyectos">
+    <section id="proyectos" class="proyectos">
         <header class="proyectos_header">
             <h2 class="subTitle">PROYECTOS</h2>
         </header>
         <div class="containerCards_proyectos">
 
             <article class="cardProyecto">
-                <img src="" alt="">
-                <p>Conjunto de normas y recomendaciones que aseguran la eficiencia, seguridad y calidad en el desarrollo web y su mantenimiento.</p>
-                <a href="">VISITAR PROYECTO</a>
+                <img loading="lazy" src="./public/proyecto-mimo.png" alt="">
+                <p>Mimo.org es una de mis landig page favoritas, se puede aprender muchisimo de ella y es perfecta para practicar desarrollo web, su diseño de interfaz es bastante bueno.</p>
+                <a class="button" href="https://mimo.org/">VISITAR PROYECTO</a>
             </article>
 
             <article class="cardProyecto">
-                <img src="" alt="">
-                <p>Conjunto de normas y recomendaciones que aseguran la eficiencia, seguridad y calidad en el desarrollo web y su mantenimiento.</p>
-                <a href="">VISITAR PROYECTO</a>
+                <img loading="lazy" src="./public/proyecto-menuBurguer.png" alt="">
+                <p>El menu de Burguer King es perfecto para practicar Flexbox, diseño responsivo, optimizacion de imagenes, lazy loding y otros grandiosos trucos que no puedes perderte.</p>
+                <a class="button" href="https://www.burgerking.com.mx/menu/#a-la-parrilla">VISITAR PROYECTO</a>
             </article>
 
             <article class="cardProyecto">
-                <img src="" alt="">
-                <p>Conjunto de normas y recomendaciones que aseguran la eficiencia, seguridad y calidad en el desarrollo web y su mantenimiento.</p>
-                <a href="">VISITAR PROYECTO</a>
+                <img loading="lazy" src="./public/proyecto-portafolio.png" alt="">
+                <p>Ahora te encargaras de crear tu propio portafolio de trabajo, con todos los conocimientos que has adquirido tienes el nivel perfecto para crear uno como el de Denisse, pasa a darle un vistaso.</p>
+                <a class="button" href="https://denisechandler.com/">VISITAR PROYECTO</a>
             </article>
 
         </div>
@@ -154,22 +163,28 @@
 
 
     <!-- PRE-REGISTER -->
-    <section class="preRegister">
+    <section id="preRegistro" itemref="re" class="preRegister">
         <div class="form">
             <h2 class="subTitle">¡NO ESPERES MAS! <br>APARTA TU LUGAR AHORA MISMO</h2>
-            <input type="text" placeholder="Correo electronico">
-            <button class="button">¡Tomame en cuenta</button>
+            <input class="input inputPreRegister" type="text" placeholder="Nombre completo">
+            <input class="input inputPreRegister" type="email" placeholder="Correo electronico">
+            <button class="button">¡Tomame en cuenta!</button>
         </div>
         <div class="colaboradores">
-            <img src="./public/profile-CPU.jpg" alt="">
-            <img src="./public/profile-UPAEP.jpg" alt="">
+            <img loading="lazy"  class="colaboradores_img colaboradores_img--UPAEP" src="./public/profile-UPAEP.jpg" alt="">
+            <img loading="lazy"  class="colaboradores_img colaboradores_img--CPU" src="./public/profile-CPU.jpg" alt="">
         </div>
     </section>
 
 
     <!-- FOOTER -->
     <footer class="footer">
-        <p>Axel Velasco Chavez</p>
+        <p>Diseñado y desarrollado por Axel Velasco Chavez💜</p>
     </footer>
+
+
+
+    <!-- SCRIPTS -->
+    <script src="https://kit.fontawesome.com/7b35ff6dce.js" crossorigin="anonymous"></script>
 </body>
 </html>

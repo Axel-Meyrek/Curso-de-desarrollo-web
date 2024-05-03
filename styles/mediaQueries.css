@@ -1,0 +1,105 @@
+@media (max-width: 1280px) {
+    .wave{
+        transform: translatey(-3em);
+        z-index: 5;
+    }
+
+    .nav{
+        margin-top: -50px;
+    }
+}
+
+@media (max-width: 1215px){
+    .preRegister{
+        margin: 0 1em;
+        margin-top: 12em;
+    }
+}
+
+@media (max-width: 1095px){
+    .colaboradores_img{
+        display: none;
+    }
+
+    .preRegister{
+        flex-direction: column;
+    }
+
+    .preRegister .button{
+        max-width: none;
+    }
+
+    .form .subTitle{
+        text-align: center;
+    }
+    
+}
+
+@media (max-width: 985px){
+    .containerCards_habilities{
+        gap: 2.5em;
+    }
+    
+    .cardHabilitie{
+        width: 100%;
+        border-width: 1px;
+    }
+    .nav{
+        display: none;
+    }
+
+    .wave{
+        transform: translate(0);
+    }
+    *{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 945px){
+    .containerCards_proyectos{
+        flex-direction: column;
+        gap: 4em;
+    }
+
+    .cardProyecto{
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 700px){
+    .instructor{
+        flex-direction: column;
+    }
+
+    .descriptionInstructor{
+        text-align: center;
+    }
+    .container_descriptionInstructor{
+        align-items: center;
+    }
+
+    .descriptionInstructor{
+        padding: 0 1em
+    }
+    .imgInstructor_item{
+        width: 200px;
+    }
+}
+
+@media (max-width: 635px){
+    *{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 530px){
+    .title{
+        font-size:var(--sizeLarge);
+    }
+    .subTitleMain{
+        font-size:var(--sizeLarge);
+
+    }
+}
