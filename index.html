@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./public/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="./styles/index.css">
     <link rel="stylesheet" href="./styles/wave.css">
     <link rel="stylesheet" href="./styles/mediaQueries.css">
@@ -165,10 +166,10 @@
     <!-- PRE-REGISTER -->
     <section id="preRegistro" itemref="re" class="preRegister">
         <div class="form">
-            <h2 class="subTitle">¡NO ESPERES MAS! <br>APARTA TU LUGAR AHORA MISMO</h2>
-            <input class="input inputPreRegister" type="text" placeholder="Nombre completo">
-            <input class="input inputPreRegister" type="email" placeholder="Correo electronico">
-            <button class="button">¡Tomame en cuenta!</button>
+            <h2 id="titleForm" class="subTitle">¡NO ESPERES MAS! <br>APARTA TU LUGAR AHORA MISMO</h2>
+            <input id="inputNombre" class="input inputPreRegister" type="text" placeholder="Nombre completo">
+            <input id="inputCorreo" class="input inputPreRegister" type="email" placeholder="Correo electronico">
+            <button id="buttonSubmitForm" class="button">¡Tomame en cuenta!</button>
         </div>
         <div class="colaboradores">
             <img loading="lazy"  class="colaboradores_img colaboradores_img--UPAEP" src="./public/profile-UPAEP.jpg" alt="">
@@ -186,5 +187,6 @@
 
     <!-- SCRIPTS -->
     <script src="https://kit.fontawesome.com/7b35ff6dce.js" crossorigin="anonymous"></script>
+    <script type="module" src="js/index.js"></script>
 </body>
 </html>
